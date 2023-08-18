@@ -1,0 +1,7 @@
+//2  Write a function that takes a string as an argument and returns its length.
+function string(str) {
+    const length = str.length;
+    return length;
+}
+console.log(string("codehelp"));
+console.log(string("priya"));

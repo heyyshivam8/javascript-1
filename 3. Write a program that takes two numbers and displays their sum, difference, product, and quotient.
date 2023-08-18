@@ -1,0 +1,15 @@
+//3. Write a program that takes two numbers and displays their sum, difference, product, and quotient.
+const a = 20;
+const b = 30;
+    let add = 0;
+    add = a+b;
+    let minus = 0;
+    minus = a-b;
+    let mul = 0;
+    mul = a*b;
+    let div = 0;
+    div = a/b
+console.log(`Sum: ${add}`); // Sum: 64
+console.log(`Difference: ${minus}`); // Difference: -22
+console.log(`Product: ${mul}`); // Product: 903
+console.log(`Quotient: ${div}`);

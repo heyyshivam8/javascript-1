@@ -1,0 +1,6 @@
+//5.Write a program that displays a string in reverse order.
+function revers(str){
+let rev = str.split("").reverse().join("");;
+return rev;
+}
+console.log(revers("rampal"));

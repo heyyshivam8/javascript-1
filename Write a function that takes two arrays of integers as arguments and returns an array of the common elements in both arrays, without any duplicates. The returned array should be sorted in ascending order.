@@ -1,0 +1,20 @@
+//Write a function that takes two arrays of integers as arguments and returns an array of the common elements in both arrays, without any duplicates. The returned array should be sorted in ascending order.
+//For example, given the arrays [1, 2, 3, 4, 5] and [3, 4, 5, 6, 7], the function should return [3, 4, 5].
+//Hint: You may need to use nested loops and conditional statements to solve this problem.
+function fcommonelements(a1, a2) {
+    let commonelements = [];
+    for(let i =0;i<a1.length;i++) {
+    if(a2.includes(a1[i])){
+        if(!commonelements.includes(a1[i]));
+        {
+            commonelements.push(a1[i]);
+        }
+    }
+}
+commonelements.sort((a, b) => a - b);
+return commonelements;
+}
+const a1 = [1, 2, 3, 4, 5];
+const a2 = [3, 4, 5, 6, 7];
+const commonelements = fcommonelements(a1, a2);
+console.log(commonelements);

@@ -1,0 +1,12 @@
+//4.Write a function that takes two numbers as arguments and returns the larger number.
+function argument(a,b) {
+    if(a>b)
+    {
+        return a;
+    }
+    else
+    {
+        return b;
+    }
+}
+console.log(argument(4,5));

@@ -1,0 +1,7 @@
+//1. Write a function that takes two numbers as arguments and returns their sum.
+function add(a,b) {
+    let sum = 0;
+    sum = a+b;
+    return sum;
+}
+console.log(add(3,4));
